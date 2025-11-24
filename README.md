@@ -52,6 +52,7 @@ Il existe 2 méthodes :
 1. Récupérez le fichier :
 
 '''
+bash
 app-release.apk
 '''
 
