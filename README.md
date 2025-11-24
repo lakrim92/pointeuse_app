@@ -51,10 +51,9 @@ Il existe 2 méthodes :
 
 1. Récupérez le fichier :
 
-'''
-bash
+```
 app-release.apk
-'''
+```
 
 2. Copiez-le sur la tablette (USB / Drive / mail)
 3. Ouvrez-le sur la tablette
@@ -79,41 +78,41 @@ Sur la tablette :
 
 Sur le PC :
 
-'''
+```
 adb services
-'''
+```
 Si tout est OK :
 
-'''
+```
 xxxxxx devive
-'''
+```
 
 3️⃣ **Installer l’application via ADB**
 
 Placer le terminal dans le dossier contenant l’APK :
 
-'''
+```
 cd build/app/outputs/flutter-apk/
-'''
+```
 
 puis installer :
 
-'''
+```
 adb install -r app-release.apk
-'''
+```
 
-'''-r''' → installe en remplaçant l’ancienne version sans effacer les données.
+```-r``` → installe en remplaçant l’ancienne version sans effacer les données.
 
 ## 🔨 Compilation (pour mise à jour ou Play Store)
 
 ✔️ **Générer un APK**
 
-'''
+```
 flutter build apk --release
-'''
+```
 
 → Fichier obtenu :
-'''build/app/outputs/flutter-apk/app-release.apk'''
+```build/app/outputs/flutter-apk/app-release.apk```
 
 ## 🔧 Technologies utilisées
 
