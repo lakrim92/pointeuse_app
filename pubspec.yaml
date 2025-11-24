@@ -1,0 +1,76 @@
+name: pointeuse_creche
+description: Application de pointeuse pour crèche
+version: 0.1.0
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 🔹 Localisation / dates en français
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+
+  # Icônes iOS
+  cupertino_icons: ^1.0.2
+
+  # Base de données locale
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  # Exports PDF / impression / Excel
+  pdf: ^3.11.0
+  printing: ^5.11.0
+  excel: ^2.0.2
+
+  # Gestion d’état
+  provider: ^6.0.5
+
+  # UI moderne (listes glissables, suppression, etc.)
+  flutter_slidable: ^3.0.0
+
+  # Préférences locales (petites données)
+  shared_preferences: ^2.2.3
+
+  # Sécurité (mot de passe admin)
+  flutter_secure_storage: ^9.0.0
+  crypto: ^3.0.2
+
+  # Sauvegarde / restauration de la base
+  file_picker: ^5.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Splash screen personnalisé
+  flutter_native_splash: ^2.4.1
+
+  # Launcher icon personnalisé
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/autoheal_1024.png
+    - assets/images/logo_petits-ecureuils.png
+
+# Configuration du splash screen
+flutter_native_splash:
+  color: "#E2E8F0" # couleur de fond
+  image: assets/images/autoheal_1024.png
+  android_12:
+    color: "#E2E8F0"
+    image: assets/images/autoheal_1024.png
+
+# Configuration du launcher icon
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo_petits-ecureuils.png"
