@@ -3,7 +3,7 @@
 
 Application de pointage dédiée à la crèche Les Écureuils, permettant aux salariés d’enregistrer leurs heures et à l’administrateur de gérer l’ensemble du système (absences, exports, etc.).
 
-📌 ##Fonctionnalités principales
+## 📌 Fonctionnalités principales
 
 ✔️ **Pointage des salariés**
 * Enregistrement de l’arrivée
@@ -43,11 +43,11 @@ Application de pointage dédiée à la crèche Les Écureuils, permettant aux sa
 * Fond dégradé
 * S’affiche au chargement de l’application
 
-📱 #Installation sur tablette / téléphone Android
+# 📱 Installation sur tablette / téléphone Android
 
 Il existe 2 méthodes :
 
-🔹 ##Méthode 1 — Installation simple via APK (recommandée)
+## 🔹 Méthode 1 — Installation simple via APK (recommandée)
 
 1. Récupérez le fichier :
 
@@ -62,7 +62,7 @@ app-release.apk
 
 ➡️ **L’application est installée et prête.**
 
-🔹 ##Méthode 2 — Installation via USB (ADB)
+## 🔹 Méthode 2 — Installation via USB (ADB)
 
 1️⃣ **Activer les options développeur**
 
@@ -103,7 +103,7 @@ adb install -r app-release.apk
 
 '''-r''' → installe en remplaçant l’ancienne version sans effacer les données.
 
-🔨 ##Compilation (pour mise à jour ou Play Store)
+## 🔨 Compilation (pour mise à jour ou Play Store)
 
 ✔️ **Générer un APK**
 
@@ -114,7 +114,7 @@ flutter build apk --release
 → Fichier obtenu :
 '''build/app/outputs/flutter-apk/app-release.apk'''
 
-🔧 ##Technologies utilisées
+## 🔧 Technologies utilisées
 
 - Flutter 3.24
 - Dart 2.18
@@ -125,12 +125,12 @@ flutter build apk --release
 - Secure Storage
 - Android SDK 35
 
-🧩 ##Code source
+## 🧩 Code source
 
 Le code complet est disponible sur GitHub :
 https://github.com/lakrim92/pointeuse_app
 
-🛟 ##Support et améliorations
+## 🛟 Support et améliorations
 
 Pour toute demande d’amélioration ou assistance :
 - Ouvrez une issue sur GitHub
